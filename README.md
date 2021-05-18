@@ -4,7 +4,7 @@ Enhancement AI is based on DenseNet and Deconvolution network (DDnet) architectu
 Segmentation AI is based on a 3D version of AHNet. Classification AI uses 3D DenseNet-121 architecture.
 Our early results show good improvement in the accuracy of classification of CT scans enhanced using DDnet.
 
-Figure 1, overall architecture of DECT testing framework.
+Figure 1, overall architecture of DL-FACT testing framework.
 ![image](https://user-images.githubusercontent.com/31482058/115868687-d7146b80-a40a-11eb-9368-d1e16bc94828.png)
 
 Figure 2, lung CT image example before enhancement (left), lung CT image example after enhancment (right).
