@@ -1,19 +1,21 @@
 # DL-FACT
-Macro-repository for CT Image Enhancement and Analysis Submodules. It is a deep learning-based COVID-19 testing framework, which is composed of post-CT Enhancement AI to enhance the quality of CT scans, segmentation AI to segment lung region from CT scans, and CT Classification AI to predict the possibility for COVID-19. 
-Enhancement AI is based on DenseNet and Deconvolution network (DDnet) architecture. The AI generates high-resolution enhanced CT images.
-The analysis phase is OPTIONAL. Segmentation AI is based on a 3D version of AHNet. Classification AI uses 3D DenseNet-121 architecture.
-Our early results show good improvement in the accuracy of classification of CT scans enhanced using DDnet.
+DL-FACT is the macro-repository for CT Image Enhancement and Analysis Submodules. It is a deep learning-based COVID-19 testing framework, which is composed of post-CT Enhancement AI to enhance the quality of CT scans and Analysis AI to analyze CT scans. The Analysis AI contains segmentation AI to segment lung region from CT scans, and Classification AI to predict the possibility for COVID-19. Figure 1 shows a schematic diagram of our work in practice. Our experimental results show that the diagnostic accuracy is improved from about 86% to 90% by enhancing CT scan images with our Enhancement AI.
+Enhancement AI is based on DenseNet and Deconvolution network (DDnet) architecture. The AI ​​generates high-resolution enhanced CT images.
 
 **Figure 1： Schematic Diagram of DL-FACT Operation**
 ![image](https://user-images.githubusercontent.com/31482058/119167932-632baa00-ba2e-11eb-869a-35a2dff6f2fd.png)
 
+Figure 2 is a schematic diagram of the test framework we used for the experiment. After preparing the data, we first use the analysis AI to directly perform diagnostic tests on the original data to obtain the diagnostic accuracy. Then use the same analysis AI to perform diagnostic tests on the enhanced image. Comparing the diagnosis results based on different images, it can be found that the accuracy of CT scan classification using enhanced AI has been greatly improved.
+
 **Figure 2: Overall Architecture of DL-FACT Framework**
 ![image](https://user-images.githubusercontent.com/31482058/119167713-1fd13b80-ba2e-11eb-85ea-7d003d2fba1e.png)
 
-**Figure 3, lung CT image example before enhancement (left), lung CT image example after enhancment (right)**
+Figures 3 and 4 show some results of our testing experiments. Figure 3 are example diagrams of images before and after enhancement. Figure 4 is the ROC curve improvement of analysis after enhancement. 
+
+**Figure 3: Lung CT Image Example before Enhancement (left), Lung CT Image Example after Enhancement (right)**
 ![image](https://user-images.githubusercontent.com/31482058/110122848-271d6d00-7d8e-11eb-80d7-b8641edfa9d3.png)
 
-**Figure 4, ROC curve of classification result of one testing**
+**Figure 4: ROC curve of Analysis Result of One Testing**
 ![image](https://user-images.githubusercontent.com/31482058/110995674-befbf780-8348-11eb-8f7a-85fd3d438cd7.png)
 
 ## Hardware requirements
