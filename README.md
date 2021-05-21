@@ -1,16 +1,19 @@
 # DL-FACT
 Macro-repository for CT Image Enhancement and Analysis Submodules. It is a deep learning-based COVID-19 testing framework, which is composed of post-CT Enhancement AI to enhance the quality of CT scans, segmentation AI to segment lung region from CT scans, and CT Classification AI to predict the possibility for COVID-19. 
 Enhancement AI is based on DenseNet and Deconvolution network (DDnet) architecture. The AI generates high-resolution enhanced CT images.
-Segmentation AI is based on a 3D version of AHNet. Classification AI uses 3D DenseNet-121 architecture.
+The analysis phase is OPTIONAL. Segmentation AI is based on a 3D version of AHNet. Classification AI uses 3D DenseNet-121 architecture.
 Our early results show good improvement in the accuracy of classification of CT scans enhanced using DDnet.
 
-Figure 1, overall architecture of DL-FACT testing framework.
-![image](https://user-images.githubusercontent.com/31482058/115868687-d7146b80-a40a-11eb-9368-d1e16bc94828.png)
+**Figure 1： Schematic Diagram of DL-FACT Operation**
+![image](https://user-images.githubusercontent.com/31482058/119166850-214e3400-ba2d-11eb-8f64-d5064b340eaa.png)
 
-Figure 2, lung CT image example before enhancement (left), lung CT image example after enhancment (right).
+**Figure 2: Overall Architecture of DL-FACT Framework**
+![image](https://user-images.githubusercontent.com/31482058/119167264-ab969800-ba2d-11eb-8e76-faa5aa3f808b.png)
+
+**Figure 3, lung CT image example before enhancement (left), lung CT image example after enhancment (right)**
 ![image](https://user-images.githubusercontent.com/31482058/110122848-271d6d00-7d8e-11eb-80d7-b8641edfa9d3.png)
 
-Figure 3, ROC curve of classification result of one testing. 
+**Figure 4, ROC curve of classification result of one testing**
 ![image](https://user-images.githubusercontent.com/31482058/110995674-befbf780-8348-11eb-8f7a-85fd3d438cd7.png)
 
 ## Hardware requirements
