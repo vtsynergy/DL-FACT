@@ -4,3 +4,6 @@
 [submodule "Analyze-AI"]
 	path = Analyze-AI
 	url = https://github.com/vtsynergy/Analyze-AI.git
+[submodule "DL-FACT"]
+	path = DL-FACT
+	url = https://github.com/vtsynergy/Analysis-AI.git
