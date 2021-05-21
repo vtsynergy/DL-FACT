@@ -5,7 +5,7 @@ The analysis phase is OPTIONAL. Segmentation AI is based on a 3D version of AHNe
 Our early results show good improvement in the accuracy of classification of CT scans enhanced using DDnet.
 
 **Figure 1： Schematic Diagram of DL-FACT Operation**
-![image](https://user-images.githubusercontent.com/31482058/119167700-1a73f100-ba2e-11eb-887b-696d4a1fc88d.png)
+![image](https://user-images.githubusercontent.com/31482058/119167932-632baa00-ba2e-11eb-869a-35a2dff6f2fd.png)
 
 **Figure 2: Overall Architecture of DL-FACT Framework**
 ![image](https://user-images.githubusercontent.com/31482058/119167713-1fd13b80-ba2e-11eb-85ea-7d003d2fba1e.png)
