@@ -5,12 +5,12 @@ Our experimental results show that the diagnostic accuracy is improved from abou
 Enhancement AI is based on DenseNet and Deconvolution network (DDnet) architecture. The AI generates high-quality enhanced CT images.
 
 **Figure 1： Schematic Diagram of DL-FACT Operation**
-![image](https://user-images.githubusercontent.com/31482058/119167932-632baa00-ba2e-11eb-869a-35a2dff6f2fd.png)
+![image](https://user-images.githubusercontent.com/31482058/119361311-60b09680-bc60-11eb-94ac-88677b8b4ada.png)
 
 Figure 2 is a schematic diagram of the test framework we used for the experiment. After preparing the data, we first use the analysis AI to directly perform diagnostic tests on the original data to obtain the diagnostic accuracy. Then use the same analysis AI to perform diagnostic tests on the enhanced image. Comparing the diagnosis results based on different images, it can be found that the accuracy of CT scan classification using enhanced AI has been greatly improved.
 
 **Figure 2: Overall Architecture of DL-FACT Framework, where Analysis AI = Segmentation AI + Classification AI**
-![image](https://user-images.githubusercontent.com/31482058/119167713-1fd13b80-ba2e-11eb-85ea-7d003d2fba1e.png)
+![image](https://user-images.githubusercontent.com/31482058/119361279-58f0f200-bc60-11eb-92f3-b8e16c5ea483.png)
 
 Figures 3 and 4 show some results of our testing experiments. Figure 3 are example diagrams of images before and after enhancement. Figure 4 is the ROC curve improvement of analysis after enhancement. 
 
