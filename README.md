@@ -15,10 +15,10 @@ Figure 2 is a schematic diagram of the test framework we used for the experiment
 Figures 3 and 4 show some results of our testing experiments. Figure 3 are example diagrams of images before and after enhancement. Figure 4 is the ROC curve improvement of analysis after enhancement. 
 
 **Figure 3: Lung CT Image Example before Enhancement (left), Lung CT Image Example after Enhancement (right)**
-![image](https://user-images.githubusercontent.com/31482058/119363182-6018ff80-bc62-11eb-9b61-1bd1df872fe0.png)
+![image](https://user-images.githubusercontent.com/31482058/119366263-a0c64800-bc65-11eb-98de-0db3268ce578.png)
 
 **Figure 4: ROC Curve of Analysis Result of One Testing**
-![image](https://user-images.githubusercontent.com/31482058/119363809-15e44e00-bc63-11eb-9e44-06f83682da96.png)
+![image](https://user-images.githubusercontent.com/31482058/119366174-88eec400-bc65-11eb-8a09-fd690404062e.png)
 
 ## Hardware requirements
 
