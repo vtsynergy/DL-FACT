@@ -17,8 +17,8 @@ Figures 3 and 4 show some results of our testing experiments. Figure 3 are examp
 **Figure 3: Lung CT Image Example before Enhancement (left), Lung CT Image Example after Enhancement (right)**
 ![image](https://user-images.githubusercontent.com/31482058/119363182-6018ff80-bc62-11eb-9b61-1bd1df872fe0.png)
 
-**Figure 4: ROC curve of Analysis Result of One Testing**
-![image](https://user-images.githubusercontent.com/31482058/110995674-befbf780-8348-11eb-8f7a-85fd3d438cd7.png)
+**Figure 4: ROC Curve of Analysis Result of One Testing**
+![image](https://user-images.githubusercontent.com/31482058/119363809-15e44e00-bc63-11eb-9e44-06f83682da96.png)
 
 ## Hardware requirements
 
