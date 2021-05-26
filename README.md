@@ -5,20 +5,20 @@ Our experimental results show that the diagnostic accuracy is improved from abou
 Enhancement AI is based on DenseNet and Deconvolution network (DDnet) architecture. The AI generates high-quality enhanced CT images.
 
 **Figure 1： Schematic Diagram of DL-FACT Operation**
-![image](https://user-images.githubusercontent.com/31482058/119361311-60b09680-bc60-11eb-94ac-88677b8b4ada.png)
+![image](https://user-images.githubusercontent.com/31482058/119709957-ab721000-be12-11eb-9bb2-cb20a8b6938a.png)
 
 Figure 2 is a schematic diagram of the test framework we used for the experiment. After preparing the data, we first use the analysis AI to directly perform diagnostic tests on the original data to obtain the diagnostic accuracy. Then use the same analysis AI to perform diagnostic tests on the enhanced image. Comparing the diagnosis results based on different images, it can be found that the accuracy of CT scan classification using enhanced AI has been greatly improved.
 
 **Figure 2: Overall Architecture of DL-FACT Framework, where Analysis AI = Segmentation AI + Classification AI**
-![image](https://user-images.githubusercontent.com/31482058/119362043-25629780-bc61-11eb-98db-f1fa2b440264.png)
+![image](https://user-images.githubusercontent.com/31482058/119709993-b462e180-be12-11eb-91da-b9fac9f74689.png)
 
 Figures 3 and 4 show some results of our testing experiments. Figure 3 are example diagrams of images before and after enhancement. Figure 4 is the ROC curve improvement of analysis after enhancement. 
 
 **Figure 3: Lung CT Image Example before Enhancement (left), Lung CT Image Example after Enhancement (right)**
-![image](https://user-images.githubusercontent.com/31482058/119366263-a0c64800-bc65-11eb-98de-0db3268ce578.png)
+![image](https://user-images.githubusercontent.com/31482058/119710035-bfb60d00-be12-11eb-94b6-c1611151389c.png)
 
 **Figure 4: ROC Curve of Analysis Result of One Testing**
-![image](https://user-images.githubusercontent.com/31482058/119366174-88eec400-bc65-11eb-8a09-fd690404062e.png)
+![image](https://user-images.githubusercontent.com/31482058/119710075-cb093880-be12-11eb-95d2-66e8e0d5aa0b.png)
 
 ## Hardware requirements
 
