@@ -15,7 +15,7 @@ Figure 2 is a schematic diagram of the test framework we used for the experiment
 Figures 3 and 4 show some results of our testing experiments. Figure 3 are example diagrams of images before and after enhancement. Figure 4 is the ROC curve improvement of analysis after enhancement. 
 
 **Figure 3: A CT Image of a COVID-19 Patient Before Enhancement (Left) and its Counterpart After Enhancement (Right)**
-![image](https://user-images.githubusercontent.com/31482058/119710035-bfb60d00-be12-11eb-94b6-c1611151389c.png)
+![image](https://user-images.githubusercontent.com/31482058/119993479-6e2b9080-bf80-11eb-8910-397743b80a62.png)
 
 **Figure 4: ROC Curve of Analysis Result of One Testing**
 ![image](https://user-images.githubusercontent.com/31482058/119710075-cb093880-be12-11eb-95d2-66e8e0d5aa0b.png)
