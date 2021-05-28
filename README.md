@@ -4,7 +4,7 @@ DL-FACT stands for Deep Learning-based Fast and Accurate Computed Tomography. It
 Our experimental results show that the diagnostic accuracy is improved from about 86% to 91% by enhancing CT scan images with our Enhancement AI.
 Enhancement AI is based on DenseNet and Deconvolution network (DDnet) architecture. The AI generates high-quality enhanced CT images.
 
-**Figure 1： Schematic Diagram of DL-FACT Operation**
+**Figure 1： High-level overview of DL-FACT**
 ![image](https://user-images.githubusercontent.com/31482058/119709957-ab721000-be12-11eb-9bb2-cb20a8b6938a.png)
 
 Figure 2 is a schematic diagram of the test framework we used for the experiment. After preparing the data, we first use the analysis AI to directly perform diagnostic tests on the original data to obtain the diagnostic accuracy. Then use the same analysis AI to perform diagnostic tests on the enhanced image. Comparing the diagnosis results based on different images, it can be found that the accuracy of CT scan classification using enhanced AI has been greatly improved.
