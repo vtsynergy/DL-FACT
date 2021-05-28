@@ -1,12 +1,6 @@
 [submodule "2D-DECT"]
 	path = 2D-DECT
 	url = https://github.com/vtsynergy/2D-DECT.git
-[submodule "Analyze-AI"]
-	path = Analyze-AI
-	url = https://github.com/vtsynergy/Analyze-AI.git
-[submodule "DL-FACT"]
-	path = DL-FACT
-	url = https://github.com/vtsynergy/Analysis-AI.git
 [submodule "Analysis-AI"]
 	path = Analysis-AI
 	url = https://github.com/vtsynergy/Analysis-AI.git
