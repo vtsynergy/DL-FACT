@@ -17,7 +17,7 @@ Figures 3 and 4 show some results of our testing experiments. Figure 3 are examp
 **Figure 3: A CT Image of a COVID-19 Patient Before Enhancement (Left) and its Counterpart After Enhancement (Right)**
 ![image](https://user-images.githubusercontent.com/31482058/119993479-6e2b9080-bf80-11eb-8910-397743b80a62.png)
 
-**Figure 4: ROC Curve of Analysis Result of One Testing**
+**Figure 4: Receiver Operating Characteristic (ROC) Curve of Analysis AI on a Testing Sample**
 ![image](https://user-images.githubusercontent.com/31482058/119710075-cb093880-be12-11eb-95d2-66e8e0d5aa0b.png)
 
 ## Hardware requirements
