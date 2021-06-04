@@ -9,7 +9,7 @@ Enhancement AI is based on DenseNet and Deconvolution network (DDnet) architectu
 
 Figure 2 is a schematic diagram of the test framework we used for the experiment. After preparing the data, we first use the analysis AI to directly perform diagnostic tests on the original data to obtain the diagnostic accuracy. Then use the same analysis AI to perform diagnostic tests on the enhanced image. Comparing the diagnosis results based on different images, it can be found that the accuracy of CT scan classification using enhanced AI has been greatly improved.
 
-**Figure 2: Overall Architecture of DL-FACT Framework, where Analysis AI = Segmentation model + Classification model**
+**Figure 2: Overall Architecture of DL-FACT Framework, where Analysis AI = Segmentation model + Classification Model**
 ![image](https://user-images.githubusercontent.com/31482058/119988932-7cc37900-bf7b-11eb-8ef3-49226e2d331c.png)
 
 Figures 3 and 4 show some results of our testing experiments. Figure 3 are example diagrams of images before and after enhancement. Figure 4 is the ROC curve improvement of analysis after enhancement. 
@@ -20,7 +20,7 @@ Figures 3 and 4 show some results of our testing experiments. Figure 3 are examp
 **Figure 4: Receiver Operating Characteristic (ROC) Curve of Analysis AI on the Testing Dataset**
 ![image](https://user-images.githubusercontent.com/31482058/119710075-cb093880-be12-11eb-95d2-66e8e0d5aa0b.png)
 
-## Hardware requirements
+## Hardware Requirements
 
 For Enhancement AI:
 
