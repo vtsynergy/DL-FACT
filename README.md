@@ -47,3 +47,6 @@ The Analysis AI requires Nvidia-docker and Nvidia Clara SDK. If you already have
 **BIMCV**: Region, B. M. I. D. o t V., Pertusa, A., & de la Iglesia Vaya, M. (2020, June 9). BIMCV-COVID19+. https://doi.org/10.17605/OSF.IO/NH7G8
 
 **MIDRC**: Tsai, E., Simpson, S., Lungren, M.P., Hershman, M., Roshkovan, L., Colak, E., Erickson, B.J., Shih, G., Stein, A., Kalpathy-Cramer, J., Shen, J., Hafez, M.A.F., John, S., Rajiah, P., Pogatchnik, B.P., Mongan, J.T., Altinmakas, E., Ranschaert, E., Kitamura, F.C., Topff, L., Moy, L., Kanne, J.P., & Wu, C. (2020). Data from the Medical Imaging Data Resource Center - RSNA International COVID Radiology Database Release 1a - Chest CT Covid+ (MIDRC-RICORD-1a).  Data from The Cancer Imaging Archive (2020). DOI: https://doi.org/10.7937/VTW4-X588.
+
+## Paper Citations
+Garvit Goel, Atharva Gondhalekar, Jingyuan Qi, Zhicheng Zhang, Guohua Cao, and Wu Feng. 2021. ComputeCOVID19+: Accelerating COVID-19 Diagnosis and Monitoring via High-Performance Deep Learning on CT Images. In 50th International Conference on Parallel Processing (ICPP '21), August 9–12, 2021, Lemont, IL, USA. ACM, New York, NY, USA 11 Pages. https://doi.org/10.1145/3472456.3473523
