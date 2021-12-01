@@ -4,3 +4,6 @@
 [submodule "Analysis-AI"]
 	path = Analysis-AI
 	url = https://github.com/vtsynergy/Analysis-AI
+[submodule "3D-DECT"]
+	path = 3D-DECT
+	url = https://github.com/vtsynergy/3D-DECT.git
